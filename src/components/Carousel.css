@@ -1,0 +1,9 @@
+.carousel {
+    width: 100%;
+    overflow: scroll;
+    padding: 0px 50px 20px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

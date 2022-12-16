@@ -1,0 +1,56 @@
+.slide {
+    color: #222222;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    max-width: 176px;
+}
+
+.image-container {
+    position: relative;
+    width: 176px;
+    height: 235px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.image-container > img {
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: #fff;
+    border-radius: 2px;
+    width: 61px;
+    font-size: 10px;
+    line-height: 11px;
+    padding: 4px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.grey-text {
+    color: #918e9b;
+}
+
+.rating-star::before {
+    content: '\2605';
+    color: #fe395c;
+    margin-right: 4px;
+}
+
+.dot::before {
+    content: '\2022';
+    position: relative;
+    margin: 0px 2px;
+    top: -1px;
+    font-size: 12px;
+}
+
+.item-price .value {
+    font-weight: 600;
+}
